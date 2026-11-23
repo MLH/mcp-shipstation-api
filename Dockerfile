@@ -1,5 +1,5 @@
-# Use Node.js 18 LTS as base image
-FROM node:18-alpine
+# Use a supported Node.js release with the October 2026 security fixes
+FROM node:24.22.3-alpine
 
 # Set working directory
 WORKDIR /app
